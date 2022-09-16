@@ -176,7 +176,7 @@ input, select, textarea {
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2920,7 +2920,7 @@ input, select, textarea {
 		}
 
 		header > p {
-			font-style: italic;
+			font-style: normal;
 		}
 
 		header > h1 + p {
@@ -3392,9 +3392,9 @@ input, select, textarea {
 
 		#intro p {
 			font-size: 1.25rem;
-			font-style: italic;
+			font-style: normal;
 			margin-top: -0.25rem;
-			text-align: center;
+			text-align: left;
 		}
 
 		#intro + #header {
@@ -4562,7 +4562,7 @@ input, select, textarea {
 		transition: transform 0.5s ease, box-shadow 0.5s ease, visibility 0.5s;
 		display: none;
 		-webkit-overflow-scrolling: touch;
-		background: #414269;
+		background: #ffffff;
 		box-shadow: none;
 		color: #212931;
 		height: 100%;
